@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Dashboard: COVID-19 Research</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+          <div class="btn-group me-2">
+            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+          </div>
+          <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+            <span data-feather="calendar"></span>
+            This week
+          </button>
+        </div>
+      </div>
+
+
+      <div>
+      <canvas id="myChart" width="900" height="380"></canvas>
+      </div>
+    </main>
+
+<script>
+    var top_researchers = JSON.parse('{{ top_researchers|tojson }}');
+    res = top_researchers.top_researchers
+    new Chart(document.getElementById("myChart"), {
+    type: 'bar',
+    data: {
+      labels: [res[0][1], res[1][1], res[2][1], res[3][1], res[4][1], res[5][1]],
+      datasets: [
+        {
+          label: 'Publications',
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#c45850", "#d9b338", "#e8c3b9"],
+          data: [res[0][0], res[1][0], res[2][0], res[3][0], res[4][0], res[5][0]]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+      legend: { display: false },
+      title: {
+        display: true,
+        text: 'Top Researchers (Number of Publications)',
+        font: {
+            size: 20
+        }
+      }
+    }
+  }
+});
+</script>
+{% endblock %}
