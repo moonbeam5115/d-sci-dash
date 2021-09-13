@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "digital-science-covid19",
+  "private_key_id": "834fc9c63bbd11b622f17c3787b42f1a20d07cdc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjNlyHolxqjshl\n/ijOo5LieYRUilTSRRIUx+s0hdq6YnilRwEGFsa8oIfaSshVqxiQTNxn30i7yDV3\ntt/dBYS2TcdOZIkoplnGnfM5ctbaqF1M+4H5hstnsCz12AQ6GSxjbcboPtoHU5w/\nAXK9JGQM2McHERZJBXgx+JIL08n8Vzc6nw7qSmFEo+VcFmuWplOwJDyasjiVtrKZ\nuE8PIomUAJ1sGvaMzlek/N0bJInM86hdoxH3A3Q7rQ2LPzn+P+YROSfEbXcwfNBJ\nmPNxCGusO3kBWIzb+7DgZe/LuiNiZzzFJxm0uqaZb1t3tUj7s5/EXtX5gInRyYil\ncljgydXfAgMBAAECggEAAdr3WE9fL5Lp8kbeXeL8I3jwKSndZvqEBxpysQkogF/o\nMTDKcTBHGBPXF4MsHdUxFUraYo/mOsQ+31qD1vZeGNhvgJOh/4VMlfZrsmZ8zMWH\nMf3V72k53Lbi+/R1r9djasnvreow/k5UA19X15CXVpIMSSdHkpLuV9sUhe/lZunu\nPfy5LkvpEwYqE7BDJaIyhIi91Df3KYtAE8rjnP1D3WxjTGgpHFpW+NP+PwAdcROg\nOXxhcger3qzQ66TtX0mwKeHR2xM+DuJCQMCkiYC41qLLxNuWega9FT8Jj1KM9d02\nJWgLUBsHEd7Az54snazIm+c6bP3wbtrRHkfAMQvo0QKBgQDY5UvrZVkAI6egh6VJ\nh1UI0BMA1lz7ab8QOG0PisDpbJoy7wEG29VvlrOChceHxFyqMap8CSegtvE5oKj4\nVsEDLoOjOVvNSyHCtjrJBFvysWseWfba9R6GRTwZ0woTDMhYElbl0yPm2HhjN0AI\nb6EBFozfrnj8CBV1eFQWDlgUFwKBgQDAo1bcYdyicJ/MnKiDV1w8iQqUb4dG9jhd\no/fznjHpc/D9+VXkhNVmy6KrrlLkEogdDz4Fd0Sqghe25MwzJe24xHnRNSEUuDtk\ngjj0bO2k1zPdsZFYAT+/voPulreGvgX6Imz94XjLIOWN8cXsaTq57tIxUh7GNovh\nUT5mSPXBeQKBgACDUlGlNLeuXeggSgDJhCb4LwNSfnfNwTjtmTxvLJOgwSCbthnp\nDTEtXxFQ9a7ZhQqWAXw3nVNg+2MSgTPNKLm0M3WAXjo3EkZenfb5vqntR36T4eSU\nrdTNdx3shNqUriifKntyq2QRYP+DEvCyKuRQxFaHGBwofLyBY1mGASlTAoGBALQy\nFnZgNHrezxwfDqKNfYJCztq62NfQSjmNv8rrF9VA1xU7vtTcTKKzqZ7emjst+pT0\nRRfn0RuORZCXxUuzFwPXBfxkrmUrUKNcDNrXahTgGWwvRb4ErRU3qUHtSg+IgR7S\nRRHXb57TTufQWUwjwwNaGtR39MGFFKPX037qkLhBAoGBAKgRE4L9dXFhzoKXLYkz\nSk91jut+h1RfzvLqA+u0TX5O6B5ZTfNk0lvDDe+cM2+AClDwNCwftfVoIHpNnx+f\n8P9wJix7nIkAoyQ5PRArrY0q3FZgD3Kyhy2BEfgB0Uj7Nc2UTuqA0yebLaWF/5gy\n9XcU3axCl5cKL2Dt7sPnm8+2\n-----END PRIVATE KEY-----\n",
+  "client_email": "d-sci-covid19-research@digital-science-covid19.iam.gserviceaccount.com",
+  "client_id": "113043558345138773617",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/d-sci-covid19-research%40digital-science-covid19.iam.gserviceaccount.com"
+}
