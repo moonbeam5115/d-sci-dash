@@ -1,1 +1,0 @@
-SECRET_KEY_PATH = 'instance/digital-science-covid19-834fc9c63bbd.json'
