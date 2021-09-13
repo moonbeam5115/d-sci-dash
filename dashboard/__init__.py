@@ -32,7 +32,7 @@ def create_app(test_config=None):
         }
         if not os.path.isfile('instance/digital-science-covid19-0ec7e3e208ed.json'):
             with open("instance/digital-science-covid19-0ec7e3e208ed.json", "w") as f:
-                json.dump(config_setup, f)
+                json.dumps(config_setup, f, indent=4)
     except OSError:
         pass
 
