@@ -2,3 +2,4 @@ instance/
 env/
 *.egg-info/
 *__pycache__/
+config.yaml
