@@ -1,5 +1,5 @@
 import os
-
+import json
 from flask import Flask
 from flask.templating import render_template
 from . queries import query_research_location
@@ -17,7 +17,22 @@ def create_app(test_config=None):
 
     # ensure the instance folder exists
     try:
-        os.makedirs(app.instance_path)
+        os.makedirs(app.instance_path, exist_ok=True)
+        config_setup = {
+            "type": os.environ.get('service_account'),
+            "project_id": os.environ.get('project_id'),
+            "private_key_id": os.environ.get('private_key_id'),
+            "private_key": os.environ.get('private_key'),
+            "client_email": os.environ.get('client_email'),
+            "client_id": os.environ.get('client_id'),
+            "auth_uri": os.environ.get('auth_uri'),
+            "token_uri": os.environ.get('token_uri'),
+            "auth_provider_x509_cert_url": os.environ.get('auth_provider_x509_cert_url'),
+            "client_x509_cert_url": os.environ.get('client_x509_cert_url')
+        }
+        if not os.path.isfile('instance/digital-science-covid19-0ec7e3e208ed.json'):
+            with open("instance/digital-science-covid19-0ec7e3e208ed.json", "w") as f:
+                json.dump(config_setup, f)
     except OSError:
         pass
 
